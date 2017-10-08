@@ -1,3 +1,69 @@
 <resources>
-    <string name="app_name">PirithSinhalen</string>
+    <string name="app_name">පිරිත් සිංහලෙන්</string>
+
+    <!-- Menu Items -->
+    <string name="action_settings">දත්ත අයිතිය</string>
+    <string name="action_bar_back_button_text">දේශනා</string>
+
+    <!-- Error Messages -->
+    <string name="error_message_network">Network error</string>
+    <string name="error_message_call">Call failed</string>
+    <string name="error_message_map">Map loading failed</string>
+
+    <!-- Audio Tracks Links-->
+    <string name="track_link_pansil_maluwa_1">http://www.maharahathunwadimagaosse.org/download/pansil-maluwa/Pansil-Maluwa-01.mp3</string>
+    <string name="track_link_pansil_maluwa_2">http://www.maharahathunwadimagaosse.org/download/pansil-maluwa/Pansil-Maluwa-02.mp3</string>
+    <!--&lt;!&ndash;<string name="track_link_pansil_maluwa_3">http://www.maharahathunwadimagaosse.org/download/pansil-maluwa/Pansil-Maluwa-03.mp3</string>&ndash;&gt;-->
+    <!--<string name="track_link_pansil_maluwa_3">http://ananmanan1.com/mp3/201508/m_Mihindu_Ariyarathna_Yana_Thanaka_ananmanan.lk.mp3</string>-->
+    <!--&lt;!&ndash;<string name="track_link_pansil_maluwa_4">http://www.maharahathunwadimagaosse.org/download/pansil-maluwa/Pansil-Maluwa-04.mp3</string>&ndash;&gt;-->
+    <!--<string name="track_link_pansil_maluwa_4">http://sarigama.lk/resources/audiofiles/mp3/192/Nidi%20Nena%20Heena%20Gena-Deweni%20Inima__Kalpana%20Kavindi_mp3[www.sarigama.lk].mp3</string>-->
+
+    <!-- Audio Tracks Name-->
+    <string name="track_name_pansil_maluwa_1">කරණීය මෙත්ත සූත්‍රය</string>
+    <string name="track_name_pansil_maluwa_2">මහා මංගල සූත්‍රය</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--<string name="track_name_pansil_maluwa_3">පන්සිල් මළුව දේශනය 3</string>-->
+    <!--<string name="track_name_pansil_maluwa_4">පන්සිල් මළුව දේශනය 4</string>-->
+    <!--<string name="track_name_pansil_maluwa_5">පන්සිල් මළුව දේශනය 5</string>-->
+    <!--<string name="track_name_pansil_maluwa_6">පන්සිල් මළුව දේශනය 6</string>-->
+    <!--<string name="track_name_pansil_maluwa_7">පන්සිල් මළුව දේශනය 7</string>-->
+    <!--<string name="track_name_pansil_maluwa_8">පන්සිල් මළුව දේශනය 8</string>-->
+    <!--<string name="track_name_pansil_maluwa_9">පන්සිල් මළුව දේශනය 9</string>-->
+    <!--<string name="track_name_pansil_maluwa_10">පන්සිල් මළුව දේශනය 10</string>-->
+    <!--<string name="track_name_pansil_maluwa_11">පන්සිල් මළුව දේශනය 11</string>-->
+    <!--<string name="track_name_pansil_maluwa_12">පන්සිල් මළුව දේශනය 12</string>-->
+    <!--<string name="track_name_pansil_maluwa_13">පන්සිල් මළුව දේශනය 13</string>-->
+    <!--<string name="track_name_pansil_maluwa_14">පන්සිල් මළුව දේශනය 14</string>-->
+    <!--<string name="track_name_pansil_maluwa_15">පන්සිල් මළුව දේශනය 15</string>-->
+    <!--<string name="track_name_pansil_maluwa_16">පන්සිල් මළුව දේශනය 16</string>-->
+    <!--<string name="track_name_pansil_maluwa_17">පන්සිල් මළුව දේශනය 17</string>-->
+    <!--<string name="track_name_pansil_maluwa_18">පන්සිල් මළුව දේශනය 18</string>-->
+    <!--<string name="track_name_pansil_maluwa_19">පන්සිල් මළුව දේශනය 19</string>-->
+    <!--<string name="track_name_pansil_maluwa_20">පන්සිල් මළුව දේශනය 20</string>-->
+    <!--<string name="track_name_pansil_maluwa_21">පන්සිල් මළුව දේශනය 21</string>-->
+    <!--<string name="track_name_pansil_maluwa_22">පන්සිල් මළුව දේශනය 22</string>-->
+    <!--<string name="track_name_pansil_maluwa_23">පන්සිල් මළුව දේශනය 23</string>-->
+    <!--<string name="track_name_pansil_maluwa_24">පන්සිල් මළුව දේශනය 24</string>-->
+    <!--<string name="track_name_pansil_maluwa_25">පන්සිල් මළුව දේශනය 25</string>-->
+    <!--<string name="track_name_pansil_maluwa_26">පන්සිල් මළුව දේශනය 26</string>-->
+    <!--<string name="track_name_pansil_maluwa_27">පන්සිල් මළුව දේශනය 27</string>-->
+    <!--<string name="track_name_pansil_maluwa_28">පන්සිල් මළුව දේශනය 28</string>-->
+    <!--<string name="track_name_pansil_maluwa_29">පන්සිල් මළුව දේශනය 29</string>-->
+    <!--<string name="track_name_pansil_maluwa_30">පන්සිල් මළුව දේශනය 30</string>-->
+
+    <!-- Audio Tracks Descriptions-->
+    <!--<string name="description_pansil_maluwa_1">-->
+    <!--● තෙරුවන් සරණ යාම යනු කුමක් ද?-->
+    <!--● කාමයෙහි වරදවා හැසිරීම යනු කුමක් ද? එය අකුසල කර්මයක් ලෙස සත්වයාට විපාක දෙන්නේ කෙසේ ද?-->
+    <!--● අන්‍යය ආගමිකයන්ට සුගතිගාමී විය නොහැකි ද? ඔවුන්ට නිවන සමීප නැත් ද?-->
+    <!--● පංචසීලය රැකිය යුත්තේ ඇයි?-->
+    <!--● මන්දබුද්ධිකභාවයට හේතුව කුමක් ද?-->
+    <!--● ජ්‍යෙතිෂ්‍ය විද්‍යාව තුළින් මිනිසා මුලා වන ආකාරය සහ ඒවා විශ්වාස කරන පුද්ගලයන්ගේ ඉරණම කුමක් ද?-->
+    <!--● තරහායාම පාලනය කළ හැක්කේ කෙසේ ද සහ මෛත‍්‍රීය පුරුදු කරන්නේ කෙසේ ද?-->
+    <!--● ගිහිවත යනු කුමක් ද?-->
+    <!--● සබ්බපාපස්ස අකරණං යන ගාථාවෙහි අර්ථය කුමක් ද?-->
+    <!--</string>-->
+
 </resources>

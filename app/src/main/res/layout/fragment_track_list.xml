@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nohimys.pirithsinhalen.fragments.TrackListFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_tracks"
+        android:scrollbars="vertical"
+        android:clickable="true"
+        android:divider="@color/colorAccent"
+        android:footerDividersEnabled="true"
+        android:dividerHeight="@dimen/list_view_divider_height"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

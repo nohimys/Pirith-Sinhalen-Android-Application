@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingLeft="@dimen/list_view_padding_sides"
+    android:paddingRight="@dimen/list_view_padding_sides"
+    android:paddingTop="@dimen/list_view_padding_top_bottom"
+    android:paddingBottom="@dimen/list_view_padding_top_bottom"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:baselineAligned="false"
+        android:layout_marginTop="@dimen/list_view_padding_sides"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minHeight="40dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_play_bulletin"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:minHeight="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/spacing_small"
+            android:text="@string/track_name_pansil_maluwa_1"
+            android:gravity="left"
+            android:textSize="@dimen/font_larger2"
+            android:id="@+id/text_view_trak_list_track_name"
+            android:alpha="0.6"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

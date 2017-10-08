@@ -1,0 +1,172 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nohimys.pirithsinhalen.fragments.PlayerFragment"
+    android:padding="4dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:paddingLeft="@dimen/spacing_small"
+        android:paddingRight="@dimen/spacing_small"
+        android:textAlignment="center"
+        android:textSize="@dimen/font_larger"
+        android:id="@+id/textview_player_heading"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:layout_below="@id/textview_player_heading"
+        android:layout_above="@+id/frame_layout_seekbar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:id="@+id/linear_layout_upper"
+            >
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/image_view_player_cover_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="50dp"
+                android:gravity="fill"
+                android:inputType="textMultiLine"
+                android:textSize="@dimen/font_larger"
+                android:id="@+id/textview_description"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/spacing_small"
+        android:id="@+id/frame_layout_seekbar"
+        android:layout_above="@+id/relative_layout_navigation"
+        android:layout_height="@dimen/chunkHeight"
+        android:background="@android:color/transparent"
+        >
+
+        <SeekBar
+            android:progressDrawable="@android:drawable/progress_horizontal"
+            android:indeterminateDrawable="@android:drawable/progress_horizontal"
+
+            android:id="@+id/seekBarMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxHeight="@dimen/chunkHeight"
+            android:minHeight="@dimen/chunkHeight"
+            android:layout_marginBottom="5dp"
+            android:indeterminateOnly="false"
+
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            />
+
+        <!--<rm.com.audiowave.AudioWaveView-->
+        <!--android:id="@+id/audio_wave_view_buffer"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--chunkWidth="@dimen/chunkWidth"-->
+        <!--chunkHeight="@dimen/chunkHeight"-->
+        <!--minChunkHeight="@dimen/minChunkHeight"-->
+        <!--chunkSpacing="@dimen/chunkSpacing"-->
+        <!--chunkRadius="@dimen/chunkRadius"-->
+        <!--waveColor="@android:color/white"-->
+        <!--/>-->
+
+        <!--<rm.com.audiowave.AudioWaveView-->
+        <!--android:id="@+id/audio_wave_view_track_progress"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--chunkWidth="@dimen/chunkWidth"-->
+        <!--chunkHeight="@dimen/chunkHeight"-->
+        <!--minChunkHeight="@dimen/minChunkHeight"-->
+        <!--chunkSpacing="@dimen/chunkSpacing"-->
+        <!--chunkRadius="@dimen/chunkRadius"-->
+        <!--waveColor="@android:color/black"-->
+        <!--android:alpha="1.0"-->
+        <!--/>-->
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relative_layout_navigation"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent"
+        android:layout_height="60dp">
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:background="@android:color/transparent"
+            android:layout_width="@dimen/player_control_button_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/image_button_play_pause_player"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_player_button_backward"
+            android:id="@+id/image_button_backward"
+            />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:background="@android:color/transparent"
+            android:layout_width="@dimen/player_control_button_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="false"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_player_button_play"
+            android:id="@+id/image_button_play_pause_player"
+            />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:background="@android:color/transparent"
+            android:layout_width="@dimen/player_control_button_width"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/image_button_play_pause_player"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_player_button_forward"
+            android:id="@+id/image_button_forward"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
